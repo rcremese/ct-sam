@@ -1,0 +1,17 @@
+name: ct_sam
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch
+  - pytorch-cuda=11.8
+  - ca-certificates
+  - openssl
+  - transformers
+  - lightning
+  - monai
+  - certifi
+  - ipykernel
+  - pillow
+  - matplotlib
+prefix: /home/rocremes/mambaforge/envs/ct_sam
